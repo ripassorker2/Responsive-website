@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navigation  */
+span {
+    color: rgb(233, 7, 117);
+}
+
+.header {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 30px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    color: rgb(233, 7, 117);
+}
+
+.logo h4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* hero section  */
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+}
+
+.bannar-info {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannar-info h1 {
+    font-size: 80px;
+}
+
+.bannar-info p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.bannar-info a {
+    text-decoration: none;
+    background-color: rgb(233, 7, 117);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.bannar-info a:hover {
+    background-color: transparent;
+    border: 2px solid rgb(233, 7, 117);
+    color: black;
+    font-weight: bold;
+}
+
+.bannar {
+
+    margin: auto;
+    padding: 30px;
+
+}
+
+/* Market section  */
+.market {
+    width: 70%;
+    margin: auto;
+    padding: 100px;
+    padding-top: 200px;
+}
+
+.all-market {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-top: .5px solid gray;
+    border-bottom: .5px solid gray;
+}
+
+/* Popular colection  */
+.popular-colection {
+    width: 70%;
+    margin: auto;
+}
+
+.colection-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.colection-header h1 {
+    font-size: 50px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+    padding: 50px 0;
+}
+
+.grid {
+    box-shadow: 0 0 10px black;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.grid h2 {
+    font-size: 30px;
+}
+
+
+.grid h5 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+}
+
+.grid h6 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: bold;
+}
+
+.grid i {
+    color: rgb(255, 234, 0);
+
+}
+
+.show-more {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Feature section  */
+.feature-section {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.feature-info {
+    padding: 30px 50px;
+}
+
+.feature-info h1 {
+    font-size: 40px;
+}
+
+.feature-info p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-info a {
+    text-decoration: none;
+    background-color: rgb(233, 7, 117);
+    padding: 15px 30px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.feature-info a:hover {
+    background-color: transparent;
+    border: 2px solid rgb(233, 7, 117);
+    color: black;
+    font-weight: bold;
+}
+
+/* footer area  */
+.footer {
+    width: 100%;
+    background: #280622;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.footer-info h1 {
+    font-size: 40px;
+}
+
+.footer-info p {
+    font-weight: bold;
+    color: gray;
+}
+
+.social-icon i {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.social-icon a :hover {
+    color: rgb(233, 7, 117);
+}
