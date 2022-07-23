@@ -87,9 +87,11 @@ span {
 }
 
 .bannar {
-
     margin: auto;
     padding: 30px;
+    background-image: url(images/Circle\ design.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -214,7 +216,8 @@ span {
 /* footer area  */
 .footer {
     width: 100%;
-    background: #280622;
+    height: auto;
+    background: #0a0a0a;
 }
 
 .footer-info {
